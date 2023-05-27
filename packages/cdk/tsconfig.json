@@ -2,10 +2,12 @@
   "extends": "../../tsconfig.base.json",
   "files": [],
   "include": ["src/**/*.ts"],
+  "exclude": ["cdk.out"],
   "compilerOptions": {
     "outDir": "../../dist/out-tsc",
     "module": "commonjs",
     "types": ["node"],
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "typeRoots": ["../../node_modules/@types"]
   }
 }
