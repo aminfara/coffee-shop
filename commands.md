@@ -13,3 +13,9 @@ Used `Package-based monorepo` and opted out for nx-cloud.
 ```
 npm i -D typescript @types/node@^18 @tsconfig/node-lts @tsconfig/strictest
 ```
+
+### Add prettier
+
+```
+npm i -D prettier prettier-plugin-organize-imports
+```
