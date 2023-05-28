@@ -4,9 +4,12 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
-  "dependencies": {},
   "devDependencies": {
-    "nx": "16.2.2"
+    "@tsconfig/node-lts": "^18.12.2",
+    "@tsconfig/strictest": "^2.0.1",
+    "@types/node": "^18.16.16",
+    "nx": "16.2.2",
+    "typescript": "^5.0.4"
   },
   "workspaces": [
     "packages/*"

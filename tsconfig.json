@@ -1,0 +1,9 @@
+{
+  "extends": ["@tsconfig/strictest/tsconfig", "@tsconfig/node-lts/tsconfig"],
+  "compilerOptions": {
+    "incremental": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "exactOptionalPropertyTypes": false
+  }
+}
