@@ -4,6 +4,7 @@
   "main": "dist/main.js",
   "scripts": {
     "build": "tsc",
-    "serve": "node dist/main.js"
+    "serve": "node dist/main.js",
+    "lint": "eslint . --ext .ts,.tsx --fix"
   }
 }
