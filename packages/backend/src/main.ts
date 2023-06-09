@@ -1,1 +1,1 @@
-console.log("How are you going?");
+console.log('How are you going?');
