@@ -3,7 +3,7 @@
   "private": true,
   "main": "dist/main.js",
   "scripts": {
-    "build": "tsc",
+    "build": "swc src --out-dir dist",
     "serve": "node dist/main.js",
     "lint": "eslint . --ext .ts,.tsx --fix"
   }
