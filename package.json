@@ -1,14 +1,21 @@
 {
-  "name": "coffee-shop",
+  "name": "@coffee-shop/ws",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {},
   "private": true,
-  "dependencies": {},
-  "devDependencies": {
-    "nx": "16.3.2"
-  },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "devDependencies": {
+    "@tsconfig/node-lts": "^18.12.2",
+    "@tsconfig/strictest": "^2.0.1",
+    "@types/node": "^18.16.16",
+    "nx": "16.3.2",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "source-map-support": "^0.5.21",
+    "tslib": "^2.5.3"
+  }
 }
