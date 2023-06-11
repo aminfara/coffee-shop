@@ -4,12 +4,12 @@
   },
   "folders": [
     {
-      "name": "root",
-      "path": "."
-    },
-    {
       "name": "backend",
       "path": "packages/backend"
+    },
+    {
+      "name": "root",
+      "path": "."
     }
   ],
   "settings": {
