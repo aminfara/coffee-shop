@@ -1,1 +1,5 @@
-console.log('How are you going?');
+export function helloWorld() {
+  return 'Hello World!';
+}
+
+console.log(helloWorld());
