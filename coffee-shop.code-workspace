@@ -1,0 +1,23 @@
+{
+  "extensions": {
+    "recommendations": ["nrwl.angular-console", "esbenp.prettier-vscode", "dbaeumer.vscode-eslint", "orta.vscode-jest"]
+  },
+  "folders": [
+    {
+      "name": "root",
+      "path": "."
+    },
+    {
+      "name": "backend",
+      "path": "packages/backend"
+    }
+  ],
+  "settings": {
+    "cSpell.words": ["swcrc"],
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.formatOnSave": true,
+    "jest.autoRun": "off"
+  }
+}
