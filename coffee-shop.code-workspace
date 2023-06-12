@@ -8,6 +8,10 @@
       "path": "packages/backend"
     },
     {
+      "name": "common",
+      "path": "packages/common"
+    },
+    {
       "name": "root",
       "path": "."
     }

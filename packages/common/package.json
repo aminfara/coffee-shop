@@ -1,5 +1,5 @@
 {
-  "name": "@coffee-shop/backend",
+  "name": "@coffee-shop/common",
   "private": true,
   "main": "src/main.ts",
   "scripts": {

@@ -10,7 +10,7 @@ swcJestConfig.swcrc = false;
 swcJestConfig.sourceMaps = 'inline';
 
 module.exports = {
-  displayName: 'backend',
+  displayName: 'common',
   testEnvironment: 'node',
   transform: {
     '^.+\\.[tj]s$': ['@swc/jest', swcJestConfig],

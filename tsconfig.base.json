@@ -3,6 +3,9 @@
   "compilerOptions": {
     "sourceMap": true,
     "importHelpers": true,
-    "paths": {}
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./packages/*"]
+    }
   }
 }
