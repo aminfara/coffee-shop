@@ -6,6 +6,7 @@
     "build": "swc --config-file ../../.swcrc src --out-dir dist",
     "serve": "node dist/main.js",
     "lint": "eslint . --ext .ts,.tsx --fix",
-    "test": "jest"
+    "test": "jest",
+    "test:cov": "jest --coverage"
   }
 }
