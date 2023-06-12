@@ -1,7 +1,7 @@
 {
   "name": "@cs/common",
   "private": true,
-  "main": "dist/main.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "swc --config-file ../../.swcrc src --out-dir dist",
     "serve": "node dist/main.js",
