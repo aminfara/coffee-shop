@@ -3,7 +3,9 @@
   "private": true,
   "main": "dist/main.js",
   "scripts": {
-    "build": "swc --config-file ../../.swcrc src --out-dir dist",
+    "compile": "swc --config-file ../../.swcrc src --out-dir dist",
+    "declaration": "tsc --declaration --emitDeclarationOnly --project tsconfig.build.json",
+    "build": "npm run compile && npm run declaration",
     "serve": "node dist/main.js",
     "lint": "eslint . --ext .ts,.tsx --fix",
     "test": "jest",

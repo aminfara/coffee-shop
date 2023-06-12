@@ -1,6 +1,7 @@
 {
   "extends": ["@tsconfig/node-lts", "@tsconfig/strictest"],
   "compilerOptions": {
+    "incremental": true,
     "sourceMap": true,
     "importHelpers": true,
     "baseUrl": ".",

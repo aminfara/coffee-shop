@@ -1,7 +1,11 @@
-import { idSchema } from '@cs/common';
+import { idSchema, type Id } from '@cs/common';
 
-export function checkUUID(id: string) {
-  return idSchema.parse(id);
+export function checkUUID(id: string): Id {
+  const parsedId = idSchema.parse(id);
+  console.log(parsedId);
+  return parsedId;
 }
 
-console.log(checkUUID('a0819dbb-1aa2-4661-b8ac-f424ccea05d8'));
+if (require.main === module) {
+  checkUUID('72395802-0c3a-4099-8729-aeef50c07d05');
+}
