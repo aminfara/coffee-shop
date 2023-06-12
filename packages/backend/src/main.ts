@@ -1,5 +1,3 @@
-export function helloWorld() {
-  return 'Hello World!';
-}
+import { helloWorld } from '@cs/common';
 
 console.log(helloWorld());

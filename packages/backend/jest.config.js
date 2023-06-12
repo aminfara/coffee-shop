@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const { exclude: _, ...swcJestConfig } = JSON.parse(
-  fs.readFileSync(path.join(__dirname, '..', '..', '.swcrc.common'), 'utf-8')
+  fs.readFileSync(path.join(__dirname, '..', '..', '.swcrc'), 'utf-8')
 );
 swcJestConfig.swcrc = false;
 // For Debugging

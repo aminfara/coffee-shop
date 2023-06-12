@@ -5,7 +5,7 @@
     "importHelpers": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./packages/*"]
+      "@cs/*": ["./packages/*"]
     }
   }
 }

@@ -1,5 +1,4 @@
-// import { helloWorld } from '@coffee-shop/common';
-import { helloWorld } from '@/common';
+import { helloWorld } from '@cs/common';
 
 describe('helloWorld', () => {
   it('should return hello world', () => {

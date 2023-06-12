@@ -14,10 +14,7 @@
     },
     "keepClassNames": true,
     "externalHelpers": true,
-    "loose": true,
-    "paths": {
-      "@/*": ["../../*"]
-    }
+    "loose": true
   },
   "module": {
     "type": "commonjs",
