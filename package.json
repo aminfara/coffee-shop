@@ -1,5 +1,9 @@
 {
   "name": "@cs/source",
   "version": "0.0.1",
-  "license": "MIT"
+  "license": "MIT",
+  "workspaces": [
+    "packages/common",
+    "packages/backend"
+  ]
 }

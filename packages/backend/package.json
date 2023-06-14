@@ -1,0 +1,12 @@
+{
+  "name": "@cs/backend",
+  "version": "0.0.1",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "serve": "node src/index.js"
+  },
+  "dependencies": {
+    "@cs/common": "*"
+  }
+}
