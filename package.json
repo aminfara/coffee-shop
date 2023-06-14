@@ -5,5 +5,14 @@
   "workspaces": [
     "packages/common",
     "packages/backend"
-  ]
+  ],
+  "devDependencies": {
+    "@tsconfig/node-lts": "^18.12.2",
+    "@tsconfig/strictest": "^2.0.1",
+    "@types/node": "^18.16.18",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "tslib": "^2.5.3"
+  }
 }

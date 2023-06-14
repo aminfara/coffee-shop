@@ -4,7 +4,8 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "serve": "node src/index.js"
+    "build": "tsc",
+    "serve": "node dist/index.js"
   },
   "dependencies": {
     "@cs/common": "*"

@@ -1,0 +1,12 @@
+{
+  "extends": ["@tsconfig/node-lts", "@tsconfig/strictest"],
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "nodenext",
+    "incremental": true,
+    "importHelpers": true,
+    "declaration": true,
+    "sourceMap": true
+  },
+  "exclude": ["node_modules", "dist", "coverage"]
+}
