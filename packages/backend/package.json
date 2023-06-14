@@ -4,8 +4,10 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "build": "tsc",
-    "serve": "node dist/index.js"
+    "build": "tsc --project ./tsconfig.build.json",
+    "serve": "node dist/index.js",
+    "test": "vitest run",
+    "test:cov": "vitest run --coverage"
   },
   "dependencies": {
     "@cs/common": "*"

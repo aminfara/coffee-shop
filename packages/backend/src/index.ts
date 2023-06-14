@@ -1,3 +1,3 @@
 import hello from "@cs/common";
 
-hello("World");
+console.log(hello("World"));
