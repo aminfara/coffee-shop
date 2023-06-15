@@ -9,8 +9,10 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsc --project ./tsconfig.build.json",
+    "lint": "eslint . --ext .ts,.tsx --fix",
     "test": "vitest run",
     "test:cov": "vitest run --coverage",
-    "lint": "eslint . --ext .ts,.tsx --fix"
+    "test:watch": "vitest",
+    "test:debug": "vitest --test-timeout 120000"
   }
 }
