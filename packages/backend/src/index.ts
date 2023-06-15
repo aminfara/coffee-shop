@@ -1,3 +1,3 @@
-import hello from "@cs/common";
+import hello from '@cs/common';
 
-console.log(hello("World"));
+console.log(hello('World'));

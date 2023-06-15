@@ -1,0 +1,23 @@
+{
+  "extensions": {
+    "recommendations": ["esbenp.prettier-vscode"]
+  },
+  "folders": [
+    {
+      "name": "backend",
+      "path": "packages/backend"
+    },
+    {
+      "name": "common",
+      "path": "packages/common"
+    },
+    {
+      "name": "root",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  }
+}
