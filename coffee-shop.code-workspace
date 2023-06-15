@@ -1,6 +1,6 @@
 {
   "extensions": {
-    "recommendations": ["esbenp.prettier-vscode"]
+    "recommendations": ["esbenp.prettier-vscode", "zixuanchen.vitest-explorer", "dbaeumer.vscode-eslint"]
   },
   "folders": [
     {
@@ -17,6 +17,9 @@
     }
   ],
   "settings": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   }
