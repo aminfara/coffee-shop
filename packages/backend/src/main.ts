@@ -1,19 +1,11 @@
-import sensible from '@fastify/sensible';
-import Fastify from 'fastify';
+import { getApp } from './app.js';
 
 async function main() {
-  const f = Fastify({
-    logger: true,
-  });
-
-  f.register(sensible);
-
-  f.get('/', async function () {
-    return { hello: 'world' };
-  });
+  const app = getApp();
 
   try {
-    f.listen({ host: 'localhost', port: 3000 });
+    // TODO: host and port to config
+    app.listen({ host: 'localhost', port: 3000 });
   } catch (err) {
     console.log(err);
     process.exit(1);
