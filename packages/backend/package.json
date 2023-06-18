@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rimraf dist coverage",
     "build": "tsc --project ./tsconfig.build.json",
-    "serve": "node dist/index.js",
+    "serve": "node dist/main.js",
     "lint": "eslint . --ext .ts,.tsx --fix",
     "test": "vitest run",
     "test:cov": "vitest run --coverage",
@@ -14,6 +14,8 @@
     "test:debug": "vitest --test-timeout 120000"
   },
   "dependencies": {
-    "@cs/common": "*"
+    "@cs/common": "*",
+    "@fastify/sensible": "^5.2.0",
+    "fastify": "^4.18.0"
   }
 }
