@@ -8,6 +8,7 @@
   },
   "types": "./dist/index.d.ts",
   "scripts": {
+    "clean": "rimraf dist coverage",
     "build": "tsc --project ./tsconfig.build.json",
     "lint": "eslint . --ext .ts,.tsx --fix",
     "test": "vitest run",

@@ -6,6 +6,12 @@
     "packages/common",
     "packages/backend"
   ],
+  "scripts": {
+    "clean": "npx nx run-many --target=clean --all=true --skip-nx-cache",
+    "rebuild": "npm run clean && npx nx run-many --target=build --all=true --skip-nx-cache",
+    "lint": "npx nx run-many --target=lint --all=true",
+    "format": "npx nx format"
+  },
   "devDependencies": {
     "@tsconfig/node-lts": "^18.12.2",
     "@tsconfig/strictest": "^2.0.1",
@@ -19,6 +25,7 @@
     "nx": "16.3.2",
     "prettier": "^2.8.8",
     "prettier-plugin-organize-imports": "^3.2.2",
+    "rimraf": "^5.0.1",
     "typescript": "^5.1.3",
     "vitest": "^0.32.0"
   },
