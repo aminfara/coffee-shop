@@ -1,0 +1,17 @@
+{
+  "name": "@cs/infra",
+  "version": "0.0.1",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "clean": "rimraf dist coverage",
+    "build": "tsc --project ./tsconfig.build.json",
+    "cdk": "cdk",
+    "lint": "eslint . --ext .ts,.tsx --fix"
+  },
+  "dependencies": {
+    "@cs/backend": "*",
+    "aws-cdk-lib": "2.81.0",
+    "constructs": "^10.0.0"
+  }
+}

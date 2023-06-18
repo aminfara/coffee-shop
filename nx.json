@@ -15,6 +15,9 @@
     },
     "serve": {
       "dependsOn": ["build"]
+    },
+    "cdk": {
+      "dependsOn": ["build"]
     }
   }
 }

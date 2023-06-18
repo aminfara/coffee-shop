@@ -12,6 +12,10 @@
       "path": "packages/common"
     },
     {
+      "name": "infra",
+      "path": "packages/infra"
+    },
+    {
       "name": "root",
       "path": "."
     }
@@ -21,6 +25,9 @@
       "source.fixAll.eslint": true
     },
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "material-icon-theme.folders.associations": {
+      "infra": "Cluster"
+    }
   }
 }
