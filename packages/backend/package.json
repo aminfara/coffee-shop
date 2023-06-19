@@ -5,13 +5,17 @@
   "type": "module",
   "scripts": {
     "clean": "rimraf dist coverage",
-    "build": "tsc --project ./tsconfig.build.json",
+    "fix:modules": "echo '{\"type\":\"module\"}' > ./dist/package.json",
+    "build": "tsc --project ./tsconfig.build.json && npm run fix:modules",
     "serve": "node dist/main.js",
     "lint": "eslint . --ext .ts,.tsx --fix",
     "test": "vitest run",
     "test:cov": "vitest run --coverage",
     "test:watch": "vitest",
     "test:debug": "vitest --test-timeout 120000"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.119"
   },
   "dependencies": {
     "@cs/common": "*",
