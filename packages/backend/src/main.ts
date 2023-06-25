@@ -1,15 +1,16 @@
 import { getApp } from './app.js';
 
 async function main() {
-  const app = getApp();
+  const app = await getApp();
+  const host = app.config.HOST;
+  const port = app.config.PORT;
 
   try {
-    // TODO: host and port to config
-    app.listen({ host: 'localhost', port: 3000 });
+    await app.listen({ host, port });
   } catch (err) {
     console.log(err);
     process.exit(1);
   }
 }
 
-main();
+await main();
