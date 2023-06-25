@@ -11,12 +11,12 @@
   },
   "targetDefaults": {
     "build": {
-      "dependsOn": ["^build"]
+      "dependsOn": ["^bundle", "^build"]
     },
-    "serve": {
+    "bundle": {
       "dependsOn": ["build"]
     },
-    "cdk": {
+    "serve": {
       "dependsOn": ["build"]
     }
   }
